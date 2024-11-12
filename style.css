@@ -1,0 +1,120 @@
+/* Resetting some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Navigation Bar */
+nav ul {
+    list-style: none;
+    background-color: #4CAF50;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #333;
+}
+
+/* Dropdown Menu */
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: #4CAF50;
+    margin-top: 10px;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li ul li {
+    display: block;
+}
+
+/* Main Sections */
+section {
+    padding: 20px;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+section h1, section h2, section h3 {
+    color: #4CAF50;
+}
+
+/* Button Styling */
+.button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+/* Form Styling */
+form {
+    display: block;
+    margin: 20px 0;
+}
+
+form input[type="text"], form input[type="email"], form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: #fff;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
