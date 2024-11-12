@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educational Resources for 11th & 12th Grade</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        // Simple Alert for page load
+        window.onload = function() {
+            alert("Welcome to your Educational Hub! Find all chapters, notes, and test papers.");
+        }
+    </script>
+</head>
+<body>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#subjects">Subjects</a>
+                <ul>
+                    <li><a href="#math">Math</a></li>
+                    <li><a href="#chemistry">Chemistry</a></li>
+                    <li><a href="#physics">Physics</a></li>
+                </ul>
+            </li>
+            <li><a href="#test-papers">Test Papers</a></li>
+            <li><a href="#downloads">Downloads</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <section id="home">
+        <h1>Welcome to Your Study Hub</h1>
+        <p>Find comprehensive notes, test papers, and resources for 11th and 12th-grade students.</p>
+        <div>
+            <a href="#math" class="button">Math Resources</a>
+            <a href="#chemistry" class="button">Chemistry Resources</a>
+            <a href="#physics" class="button">Physics Resources</a>
+        </div>
+    </section>
+
+    <section id="subjects">
+        <h2>Subjects</h2>
+        <div id="math">
+            <h3>Math</h3>
+            <ul>
+                <li><a href="#">Chapter 1: Algebra - <button>Download Notes</button></a></li>
+                <li><a href="#">Chapter 2: Calculus - <button>Download Notes</button></a></li>
+                <!-- Add more chapters here -->
+            </ul>
+        </div>
+        <div id="chemistry">
+            <h3>Chemistry</h3>
+            <ul>
+                <li><a href="#">Chapter 1: Organic Chemistry - <button>Download Notes</button></a></li>
+                <li><a href="#">Chapter 2: Inorganic Chemistry - <button>Download Notes</button></a></li>
+                <!-- Add more chapters here -->
+            </ul>
+        </div>
+        <div id="physics">
+            <h3>Physics</h3>
+            <ul>
+                <li><a href="#">Chapter 1: Mechanics - <button>Download Notes</button></a></li>
+                <li><a href="#">Chapter 2: Thermodynamics - <button>Download Notes</button></a></li>
+                <!-- Add more chapters here -->
+            </ul>
+        </div>
+    </section>
+
+    <section id="test-papers">
+        <h2>Test Papers</h2>
+        <div>
+            <h3>Math Test Papers</h3>
+            <ul>
+                <li><a href="#">Chapter 1 Test Paper - <button>Download</button></a></li>
+                <li><a href="#">Chapter 2 Test Paper - <button>Download</button></a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Chemistry Test Papers</h3>
+            <ul>
+                <li><a href="#">Chapter 1 Test Paper - <button>Download</button></a></li>
+                <li><a href="#">Chapter 2 Test Paper - <button>Download</button></a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Physics Test Papers</h3>
+            <ul>
+                <li><a href="#">Chapter 1 Test Paper - <button>Download</button></a></li>
+                <li><a href="#">Chapter 2 Test Paper - <button>Download</button></a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="downloads">
+        <h2>Downloads</h2>
+        <p>Download all your study materials and test papers here:</p>
+        <a href="#">Download All Math Notes (PDF)</a><br>
+        <a href="#">Download All Chemistry Notes (PDF)</a><br>
+        <a href="#">Download All Physics Notes (PDF)</a><br>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>This website was created to help 11th and 12th-grade students with study materials, notes, and test papers. Our mission is to make learning more accessible and effective!</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="mailto:hotbuzzhub@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+            <input type="submit" value="Send Message">
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Krishna Jadhav | Contact: <a href="mailto:hotbuzzhub@gmail.com">hotbuzzhub@gmail.com</a></p>
+    </footer>
+
+</body>
+</html>
