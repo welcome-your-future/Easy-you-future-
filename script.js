@@ -1,6 +1,8 @@
 // Alert message on page load
 window.onload = function() {
-    alert("Welcome to your Educational Hub! Find all chapters, notes, and test papers.");
+    alert("Welcome to your Educational Hub! Find all chapters, notes, and test papers.
+&copy; 2024 Krishna Jadhav all rights reserved
+");
 }
 
 // Toggle hamburger menu for mobile navigation
